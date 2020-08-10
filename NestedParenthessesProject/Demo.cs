@@ -16,6 +16,7 @@ namespace NestedParenthessesProject
                 Console.WriteLine("Valid expression");
             else
                 Console.WriteLine("Invalid expression");
+
            static bool IsValid(string expr)
             {
                 StackA st = new StackA();
